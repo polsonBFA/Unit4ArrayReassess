@@ -1,15 +1,26 @@
 class Main {
   public static void main(String[] args) {
-    System.out.println(computeScore("quake"));
+    
+
   }
 
+  /* Write a method called createWedge
+   * Returns an array filled with values 1, 2, ... , n-1, n, n-1, ... , 2, 1
+   * Precondition: n > = 1
+  */
+  public static int[] createWedge(int n)
+  {
 
-  /* Question 3: In Scrabble®, different letters are assigned different numbers of points:
-   * Write a method computeScore(String word) that returns the score for a word without 
-   * using any if statements. 
+  }
+
+  /* Write a method called printArray that receives an array as a parameter, 
+   * and prints out the array in a neat, readable way as seen in the example below:
+   * [ 1, 2, 3, 4, 3, 2, 1]
    */
   
+  //Write you printArray method here
 
+  
   
   
 }
