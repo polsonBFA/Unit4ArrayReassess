@@ -1,13 +1,19 @@
 # Instructions  
+Complete the following methods: createWedge and printArray as described below:
 
-Below is the coding task for the Unit 4 Arrays Test.
+// Returns an array filled with values
+// 1, 2, ... , n-1, n, n-1, ... , 2, 1
+// Precondition: n > = 1
+For example, createWedge(3) returns the array {1, 2, 3, 2, 1];
+```java
+public static int[] createWedge(int n)
+{
+
+}
+```
+Write a method called ```javaprintArray``` that receives an array as a parameter, and prints out the array in a neat, readable way as seen in the example below:
+
+[ 1, 2, 3, 4, 3, 2, 1]
 
 
-  ## Question 4: Scrabble
-
-In Scrabble®, different letters are assigned different numbers of points:
-![image](image.png)
-Write a method computeScore(String word) that returns the score for a word __without using any if statements__. 
-
-*Hint: find the position of a given letter in the alphabet string "abcde…xyz" by calling indexOf; get the score for that letter from the array of point values, and add to the total.
 
