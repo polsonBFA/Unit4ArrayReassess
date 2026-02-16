@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Main",
+            "projectName": "Test_2A_889d14da"
+        },
+        {
+            "type": "java",
+            "name": "Launch App",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "com.mycompany.app.App",
+            "args": "",
+            "projectName": "my-app"
+        }
+    ]
+}
